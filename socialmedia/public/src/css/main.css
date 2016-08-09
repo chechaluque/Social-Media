@@ -1,0 +1,41 @@
+body{
+	background-color: #b3cbee;
+}
+.new-post{
+	padding: 16px 0px;
+	border-bottom: 1px solid #1362a2;
+}
+.new-post header, .posts header{
+	margin-bottom: 20px;
+}
+.posts .post{
+	padding-left: 5px;
+	border-left: 3px solid #1362a2;
+	margin-bottom: 30px;
+}
+.posts .post .info{
+	color: #aaa;
+	font-style: italic;
+}
+.error, .success{
+	text-align: center;
+}
+.error{
+	 border: 1px solid #950a22;
+	background-color: #8f1554;
+	color: #e9ebee;
+ }
+ .success{
+	 border: 1px solid #99cb84;
+	 background-color: #99cb84;
+	 color: #53164d;
+ }
+ .error ul{
+	 list-style: none;
+
+ }
+ .interaction a{
+     padding-left: 2px;
+     border-left: 1px solid #6213a2;
+     margin-bottom: 30px;
+ }
